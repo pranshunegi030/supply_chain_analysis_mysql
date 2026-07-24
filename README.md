@@ -45,3 +45,31 @@ The dataset contains **1.4+ million records**, making query optimization and eff
 6) Product Performance
 7) Market-wise Performance
 8) Monthly Sales Trends
+
+**SQL Analysis Performed :**
+
+This project consists of multiple SQL scripts that simulate a real-world supply chain analytics workflow for AtliQ Hardware. Each script answers a specific business problem related to demand forecasting and supply chain performance.
+
+**1) Data Preparation & Consolidation :**
+
+i) Combined the **Actual Sales** (fact_sales_monthly) and **Forecast Sales** (fact_forecast_monthly) tables into a unified table named fact_act_est.
+
+ii) Removed inconsistent records with missing dates.
+
+iii) Replaced NULL values in sold and forecast quantities with zero.
+
+iv) Created database triggers to automatically keep the consolidated table updated whenever new sales or forecast records are inserted.
+
+**2) Customer-wise Forecast Accuracy Analysis :**
+
+Calculated the following KPIs for every customer for Fiscal Year 2021:
+
+i) Total Sold Quantity
+ii) Total Forecast Quantity
+iii) Net Error
+iv) Net Error %
+v) Absolute Net Error
+vi) Absolute Net Error %
+vii) Forecast Accuracy %
+
+This analysis helps identify customers whose demand forecasts closely match actual sales.
