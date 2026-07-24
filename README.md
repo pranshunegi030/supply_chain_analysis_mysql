@@ -73,3 +73,56 @@ vi) Absolute Net Error %
 vii) Forecast Accuracy %
 
 This analysis helps identify customers whose demand forecasts closely match actual sales.
+
+**3) Top & Bottom 10 Customers by Forecast Accuracy :**
+
+Ranked customers based on their forecast accuracy and generated reports for:
+
+i) Top 10 customers with the highest forecast accuracy
+ii) Bottom 10 customers with the lowest forecast accuracy
+
+This enables the business to recognize customers with reliable demand patterns and those requiring better forecasting.
+
+**4) Market-wise Forecast Accuracy Analysis :**
+
+Evaluated forecasting performance across different markets by calculating:
+
+i) Total Sold Quantity
+ii) Total Forecast Quantity
+iii) Absolute Net Error %
+iv) Forecast Accuracy %
+
+The analysis also identifies:
+
+i) Top 5 markets with the highest forecast accuracy
+ii) Bottom 5 markets with the lowest forecast accuracy
+
+This provides valuable insights into regional forecasting performance.
+
+**5) Year-over-Year Forecast Performance (FY2020 vs FY2021) :**
+
+Compared customer forecast accuracy between Fiscal Year 2020 and Fiscal Year 2021.
+
+The report includes:
+
+i) Customer Code
+ii) Customer Name
+iii )Market
+iv) Forecast Accuracy (FY2020)
+v) Forecast Accuracy (FY2021)
+
+This analysis highlights customers whose forecasting performance declined over time, enabling business teams to investigate the root causes and improve planning strategies.
+
+**Key Learnings :**
+Through this project, I gained practical experience in:
+
+1) Writing complex SQL queries
+2) Common Table Expressions (CTEs)
+3) Joins (Inner, Left, Right, Self)
+4) Window Functions
+5) Aggregate Functions
+6) Subqueries
+7) Views
+8) Query Optimization
+9) Business Problem Solving using SQL
+10) Supply Chain Analytics Concepts
