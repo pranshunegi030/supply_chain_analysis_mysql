@@ -32,4 +32,16 @@ The project uses supply chain data containing information such as:
 3) Markets
 4) Monthly Sales
 5) Monthly Forecasts
-The insights generated from this analysis help business stakeholders improve demand planning, inventory management, and customer service.
+
+The dataset contains **1.4+ million records**, making query optimization and efficient SQL writing an important part of the project.
+
+**Business Metrics Analyzed :**
+
+1) Forecast Accuracy (%)
+2) Net Error
+3) Absolute Error
+4) Forecast vs Actual Sales
+5) Customer Performance
+6) Product Performance
+7) Market-wise Performance
+8) Monthly Sales Trends
