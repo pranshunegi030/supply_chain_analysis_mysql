@@ -74,6 +74,9 @@ vii) Forecast Accuracy %
 
 This analysis helps identify customers whose demand forecasts closely match actual sales.
 
+Link : 
+https://github.com/pranshunegi030/supply_chain_analysis_mysql/blob/main/SQL%20Files/supply_chain_analysis_atliq.sql
+
 **3) Top & Bottom 10 Customers by Forecast Accuracy :**
 
 Ranked customers based on their forecast accuracy and generated reports for:
@@ -82,6 +85,9 @@ i) Top 10 customers with the highest forecast accuracy
 ii) Bottom 10 customers with the lowest forecast accuracy
 
 This enables the business to recognize customers with reliable demand patterns and those requiring better forecasting.
+
+Link : 
+https://github.com/pranshunegi030/supply_chain_analysis_mysql/blob/main/SQL%20Files/top_10_bottom_10_cust_forecast_acc.sql
 
 **4) Market-wise Forecast Accuracy Analysis :**
 
@@ -99,6 +105,9 @@ ii) Bottom 5 markets with the lowest forecast accuracy
 
 This provides valuable insights into regional forecasting performance.
 
+Link : 
+https://github.com/pranshunegi030/supply_chain_analysis_mysql/blob/main/SQL%20Files/market_wise_forecast_accuracy.sql
+
 **5) Year-over-Year Forecast Performance (FY2020 vs FY2021) :**
 
 Compared customer forecast accuracy between Fiscal Year 2020 and Fiscal Year 2021.
@@ -112,6 +121,9 @@ iv) Forecast Accuracy (FY2020)
 v) Forecast Accuracy (FY2021)
 
 This analysis highlights customers whose forecasting performance declined over time, enabling business teams to investigate the root causes and improve planning strategies.
+
+Link : 
+https://github.com/pranshunegi030/supply_chain_analysis_mysql/blob/main/SQL%20Files/forecast_accuracy_fy_20vs21.sql
 
 **Key Learnings :**
 Through this project, I gained practical experience in:
